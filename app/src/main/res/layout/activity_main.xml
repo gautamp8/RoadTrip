@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Activity.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <VideoView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:id="@+id/driveVideo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dp">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/upVote"
+        android:src="@drawable/up"
+        android:background="@null" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="20"
+        android:id="@+id/counter"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="#000000" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/downVote"
+        android:src="@drawable/down"
+        android:background="@null" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Driver Name"
+                android:id="@+id/name"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:fontFamily="serif"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Location"
+                android:id="@+id/location"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:fontFamily="serif"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Average Speed"
+                android:id="@+id/speed"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:fontFamily="serif"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txtCurrentSpeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="000.0 miles/hour"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:fontFamily="serif"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#2c42e9"
+                android:layout_marginTop="5dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Proximity Alert"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
+
+    <!---->
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@color/abc_background_cache_hint_selector_material_dark"/>-->
+
+
+</LinearLayout>
