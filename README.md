@@ -17,6 +17,12 @@ Our solution revolves around prevention of accidents by incentivising good drivi
 and Registration Token: eZA9MAC2OIk:APA91bG8LpNOs3llNn_4BSX6ebwpIaauPLvTYuuc54z029mA1jHE0-d2wN7NlMdxLjyVwWpTYvKFheTI7El0BIMFMVNmJ5axiJyvwFhlWRZ1eyFyGjOmcXWZ_S7fr7N5yy1eOGxdZ4hf
 - We are providing dummy data of crashes to the user, click on add a new Proximity Alert button, which will set a crash location co-oridinate, when a user is within a particular distance to that location, a push notification is sent giving the last crash details and warning user to drive slow.
 
+#Screenshots
+![1](http://s15.postimg.org/swo6q4nkr/Screenshot_2016_04_04_00_54_03.png)
+![2](http://s15.postimg.org/4u7cv96xn/Screenshot_2016_04_04_00_54_16.png)
+![3](http://s15.postimg.org/mhp5tgguz/Screenshot_2016_04_04_00_54_39.png)
+![4](http://s15.postimg.org/701nprae3/Screenshot_2016_04_04_00_57_49.png)
+
 
 
 
