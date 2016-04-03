@@ -11,5 +11,11 @@ Our solution revolves around prevention of accidents by incentivising good drivi
 
  + The user will be required to place the mobile such that we are able to capture the view of the road with it. Through the camera feed we will get to know whether the user exhibited good or bad driving. We will open this feed to the public and crowdsource the vetting process.
 
+#Instructions to run
+- App opens with a screen, showing live video of driving which is a camera feed. Camera feed can be upvoted/downvoted by the viewers. 
+- Driver details will be shown, along with average speed. As soon as it increases above 45 kmph, a toast is shown, saying you are exceeding safe speed limit, a Push Notification is received, which can be sent from a server. Here is the link of demo server to test it http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-2/
+- We are providing dummy data of crashes to the user, click on add a new Proximity Alert button, which will set a crash location co-oridinate, when a user is within a particular distance to that location, a push notification is sent giving the last crash details and warning user to drive slow.
+
+
 
 
