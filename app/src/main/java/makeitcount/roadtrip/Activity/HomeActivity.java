@@ -17,7 +17,6 @@ import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
 import com.firebase.client.ValueEventListener;
 
-import makeitcount.roadtrip.Models.Trip;
 import makeitcount.roadtrip.R;
 import makeitcount.roadtrip.helper.ProximityIntentReceiver;
 
@@ -76,6 +75,6 @@ public class HomeActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(),"Alert Added", Toast.LENGTH_SHORT).show();
         finish();
         Intent intentz = new Intent(this, MainActivity.class);
-        this.startActivity(intent);
+        this.startActivity(intentz);
     }
 }

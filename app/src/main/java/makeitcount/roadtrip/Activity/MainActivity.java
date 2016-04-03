@@ -23,8 +23,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.CompoundButton;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -42,7 +40,6 @@ import com.google.android.gms.common.GoogleApiAvailability;
 import java.util.Formatter;
 import java.util.Locale;
 
-import makeitcount.roadtrip.Models.Driver;
 import makeitcount.roadtrip.R;
 import makeitcount.roadtrip.app.Config;
 import makeitcount.roadtrip.gcm.GcmIntentService;
@@ -110,11 +107,16 @@ public class MainActivity extends AppCompatActivity implements IBaseGpsListener 
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 Log.d("dataSnapshot",dataSnapshot.toString());
-                Driver driver1 = dataSnapshot.getValue(Driver.class);
-                upvotes.setText(driver1.getUpvotes().toString());
-                name.setText("Driver Name:" + driver1.getName());
-                location.setText("Driver Location: "+ driver1.getLocation());
-                avgSpeed.setText("Average Speed: "+ driver1.getSpeed().toString());
+//                Driver driver1 = dataSnapshot.getValue(Driver.class);
+//                upvotes.setText(driver1.getUpvotes().toString());
+//                name.setText("Driver Name:" + driver1.getName());
+//                location.setText("Driver Location: "+ driver1.getLocation());
+//                avgSpeed.setText("Average Speed: "+ driver1.getSpeed().toString());
+
+                name.setText("Driver Name: " + "John Doe");
+                location.setText("Driver Location: "+ "New Delhi");
+                avgSpeed.setText("Average Speed:");
+                upvotes.setText("13");
             }
 
             @Override

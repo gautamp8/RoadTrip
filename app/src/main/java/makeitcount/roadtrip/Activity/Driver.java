@@ -1,4 +1,4 @@
-package makeitcount.roadtrip.Models;
+package makeitcount.roadtrip.Activity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
